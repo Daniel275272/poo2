@@ -18,7 +18,7 @@ public class Ejercicio6 {
 
         dia = dia + 1;
 
-        // Febrero
+        // febrero
         if (mes == 2) {
             if (dia > 28) {
                 dia = 1;
@@ -98,7 +98,7 @@ public class Ejercicio6 {
             }
         }
 
-        // Diciembre (fin de año)
+        // Diciembre 
         if (mes == 12) {
             if (dia > 31) {
                 dia = 1;
