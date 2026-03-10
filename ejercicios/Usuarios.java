@@ -5,10 +5,10 @@ public class Usuarios {
     int seguidores;
     public Usuarios (String username) {
         this.username = username;
-        this.seguidores = 0; // Inicia con 0 seguidores
+        this.seguidores = 0; 
     }
     public void nuevoSeguidor() {
-        this.seguidores = this.seguidores + 1; // También puede ser this.seguidores++
+        this.seguidores = this.seguidores + 1; 
         System.out.println("¡Nuevo seguidor para " + this.username + "!");
     }
     public void mostrarPerfil() {
